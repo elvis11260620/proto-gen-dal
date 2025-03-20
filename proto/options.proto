@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-package proto;
+package proto_gen_al.proto;
+
+option go_package = "github.com/elvis11260620/proto-gen-dal/proto";
 
 import "google/protobuf/descriptor.proto";
 
